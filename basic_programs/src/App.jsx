@@ -5,10 +5,13 @@ import UserProfile from "./UserProfile/UserProfile";
 import Counter from "./Counter/counter";
 import StudentDashboard from "./StudentProfileCard/StudentDashboard";
 import TodoList from "./ToDoList/ToDoList";
+import ContactForm from "./Form/ContactForm";
+import EmailForm from "./Form/EmailForm";
+import UserList from "./List/UserList";
 function App(){
   return (
     <div>
-      <h1>React practice programs</h1>
+    {/*  <h1>React practice programs</h1>
       <div>mani</div>
       <span>kumar</span>
       <Fruits />
@@ -19,6 +22,9 @@ function App(){
       <Counter />
       <StudentDashboard />
       <TodoList />
+      <ContactForm />
+      <EmailForm /> */}
+      <UserList />
     </div>
   );
 }
